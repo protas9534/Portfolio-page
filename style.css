@@ -1,44 +1,59 @@
-*{
-    box-sizing: border-box;
-}
-div {
-    width: 50vw;
-    height: 50vh;
-    background: red;
-    font-size: 40px;
-}
+* {box-sizing: border-box;}
 body {
-    width: 5000px;
+    margin: 0;
 }
-p {
-    font-size: 2em;
+.main-loyaut {
+    background-color: #EEEFF1;
+    overflow: hidden;
+    padding-top: 250px;
+    padding-bottom: 50px;
 }
-.first-div {
-    background: pink;
-    border: 1px solid blue;
-    margin: 30px;
-    padding: 30px 8px 30px 50px;
-    position: relative;
-    top: 200px;
+.container {
+    margin: 0 auto;
+    width: 80%;
 }
-.loyout {
-    width: 300px;
-    height:300px;
-    background: green;
-
+.main-loyaut-left {
+    float: left;
+    width: 50%;
 }
-.loyout-red {
-    background: red;
-    
+.main-loyaut-right {
+    float: left;
+    width: 50%;
 }
-.all {
-    width: 110px;
-    height:100px;
-    background: blue;
-    position: fixed;
-    top: 10px;
-    right: 50px;
+.main-loyaut-right-title {
+    padding-bottom: 50px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
 }
-.a {
-    position: absolute;
+.main-loyaut-right-discription {
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    color: gray;
+}
+.main-loyaut-right-button {
+    padding-bottom: 50px;  
+}
+.loyaut-button {
+    background-color: #34547A;
+    color: white;
+    width: 225px;
+    height: 65px;
+    outline: none;
+}
+.about-us {
+    padding: 50px 50px;
+}
+.about-us-title {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+.about-us-discription {
+   text-align: center;
+   margin: 0 auto;
+   font-size: 18px;
+   width: 500px;
+   color: gray;
 }
