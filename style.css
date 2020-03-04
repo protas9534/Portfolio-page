@@ -53,6 +53,7 @@ body {
     padding-right: 10px;
 }
 .main-loyaut-right-button {
+    padding-top: 50px;
     padding-bottom: 50px;  
 }
 .loyaut-button {
@@ -60,7 +61,6 @@ body {
     color: white;
     width: 225px;
     height: 65px;
-    outline: none;
 }
 .about-us {
     padding: 50px 50px;
@@ -181,6 +181,9 @@ body {
     float: left;
     text-align: center;
 }
+.picture-block-paper:hover {
+    box-shadow: inset 0px 0px 0px 700px #18141467;
+}
 .picture-block-comp-shadow {
     width: 25%;
     height: 300px;
@@ -188,6 +191,9 @@ body {
     background-size: coer;
     text-align: center;
     float: left;
+}
+.picture-block-comp-shadow:hover {
+    box-shadow: inset 0px 0px 0px 700px #d1ce0c71;
 }
 .view {
     padding-top: 100px;
@@ -200,13 +206,100 @@ body {
     float: left;
     text-align: center;
 }
+.picture-block-comp:hover {
+    box-shadow: inset 0px 0px 0px 700px #18141467;
+}
 .microsoft {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    overflow: hidden;
 }
 .microsoft-logo {
     float: left;
+    text-align: center;
+    width: 25%;
 }
 .microsoft-logo-img {
 
+}
+.feedback {
+    padding: 50px 50px;
+    background-color: #EEEFF1;
+}
+.feedback-title {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.feedback-discription {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    width: 500px;
+    color: #727272;
+    padding-bottom: 20px;
+}
+.connect {
+    text-align: center;
+    width: 330px;
+    margin: 0 auto;
+}
+.connect-name {
+    text-align: center;
+    float: left;
+    padding-right: 25px;
+}
+.name-aria {
+    padding: 5px;
+}
+.connect-mail {
+    padding-bottom: 20px;
+}
+.mail-aria {
+    padding: 5px;
+}
+.connect-message {
+
+}
+.message-aria {
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.feedback-enter-button {
+    background-color: #34547A;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+.feedback-button {
+    padding-top: 30px;
+    
+}
+.footer {
+    background-color: #34547A;
+    overflow: hidden;
+    height: 100px;
+    padding-top: 30px;
+}
+.footer-left {
+    float: left;
+    width: 50%;
+    color: white;
+}
+.footer-name {
+
+}
+.footer-discription {
+
+}
+.footer-right {
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding-left: 320px;
+}
+.footer-img {
+    float: left;
+    padding-right: 10px;
 }
