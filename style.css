@@ -33,7 +33,7 @@ body {
 .main-loyaut-left {
     float: left;
     width: 50%;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 50px;
 }
 .main-loyaut-right {
@@ -48,7 +48,7 @@ body {
 .main-loyaut-right-discription {
     padding-bottom: 50px;
     font-size: 16px;
-    line-height: 26px;
+    height: 30px;
     color: #727272;
     padding-right: 10px;
 }
@@ -72,7 +72,7 @@ body {
 }
 .about-us-discription {
    text-align: center;
-   margin: 0 auto;
+   magin: 0 auto;
    font-size: 18px;
    width: 500px;
    color: #727272;
@@ -302,4 +302,6 @@ body {
 .footer-img {
     float: left;
     padding-right: 10px;
+    text-align: center;
+    width: 33%;
 }
